@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-gray-100">
+    <nav class="flex justify-between p-4">
+        <h1 class="text-2xl font-bold text-blue-500">MyShop</h1>
+        <ul class="flex gap-4">
+            <li><a href="#" class="hover:bg-blue-500">Home</a></li>
+            <li><a href="#" class="hover:bg-blue-500">Products</a></li>
+            <li><a href="#" class="hover:bg-blue-500">Cart</a></li>
+            <li><a href="#" class="hover:bg-blue-500">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="p-4">
+        <h1 class="text-3xl font-bold text-center text-blue-500 py-2">Contact Us</h1>
+        <p class="text-center text-black">Have Questions or Need Assistance?! We're Here To Help!!!</p>
+    </div>
+
+    <div class="flex justify-center gap-4 p-4">
+        <div>
+            <form class="mx-auto bg-white p-6 rounded-lg shadow-md w-80">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded" required>
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" rows="4" class="w-full p-2 border border-gray-300 rounded"></textarea>
+                </div>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Send Message</button>
+            </form>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md">
+            <center>
+                <h1 class="text-2xl font-bold mb-2">Our Office</h1>
+                <p class="mb-2">Address: 123 Main Street, City, Country</p>
+                <p class="mb-2">Phone: +123 456 7890</p>
+                <p class="mb-4">Email: info@myshop.com</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.401808380741!2d90.3576386!3d23.8398616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c1410ff7f515%3A0x7655eae2540befbe!2sBangladesh%20University%20of%20Professionals%20(BUP)!5e0!3m2!1sen!2sbd!4v1744188201187!5m2!1sen!2sbd" 
+            style="border: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </center>
+        </div>
+    </div>
+</body>
+</html>

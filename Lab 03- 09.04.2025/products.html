@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="flex justify-between p-4">
+        <h1 class="text-2xl font-bold text-blue-500">MyShop</h1>
+        <ul class="flex gap-4">
+            <li><a href="#" class="hover:bg-blue-500">Home</a></li>
+            <li><a href="#" class="hover:bg-blue-500">Products</a></li>
+            <li><a href="#" class="hover:bg-blue-500">Cart</a></li>
+            <li><a href="#" class="hover:bg-blue-500">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bg-blue-500 p-4 text-white">
+        <h1 class="text-3xl font-bold text-center">Our Products</h1>
+        <p class="text-center">Explore our latest Collections</p>
+    </div>
+
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-4 p-4"> <!--container -->
+        <div class="shadow-lg p-4 rounded-lg"> <!--product card -->
+            <img src="product.jpg" alt="Shopping Image" class="rounded-lg h-50 w-full">
+            <div>
+                <h3 class="font-bold"> Product 1</h3>
+                <p>Price: $25</p>
+            </div>
+            <button class="bg-blue-500 rounded-md p-1 text-white"> Add to Cart</button>
+        </div>
+
+        <div class="shadow-lg p-4 rounded-lg"> <!--product card -->
+            <img src="product1.jpg" alt="Shopping Image" class="rounded-lg h-50 w-full">
+            <div>
+                <h3 class="font-bold"> Product 2</h3>
+                <p>Price: $25</p>
+            </div>
+            <button class="bg-blue-500 rounded-md p-1 text-white"> Add to Cart</button>
+        </div>
+
+        <div class="shadow-lg p-4 rounded-lg"> <!--product card -->
+            <img src="product2.jpg" alt="Shopping Image" class="rounded-lg h-50 w-full">
+            <div>
+                <h3 class="font-bold"> Product 3</h3>
+                <p>Price: $25</p>
+            </div>
+            <button class="bg-blue-500 rounded-md p-1 text-white"> Add to Cart</button>
+        </div>
+
+        <div class="shadow-lg p-4 rounded-lg"> <!--product card -->
+            <img src="product3.avif" alt="Shopping Image" class="rounded-lg h-50 w-full">
+            <div>
+                <h3 class="font-bold"> Product 4</h3>
+                <p>Price: $25</p>
+            </div>
+            <button class="bg-blue-500 rounded-md p-1 text-white"> Add to Cart</button>
+        </div>
+    </div>
+
+    <div class="bg-gray-800 p-4 text-white text-center mt-21">
+        <p class="p-3">&copy; 2025 MyShop. All Rights Reserved.</p>
+    </div>
+</body>
+</html>
